@@ -1,0 +1,2 @@
+Give me an idea on DevConf2026 website landing page . There are 5 sections in this landing page 
+I already make 1st header section with nav than i make 2nd section Meet the Speakers where I feature four speakers and then I add  3rd section/Source Your Spot section where there are three price card and then 4 section, you help me to build this section by providing me idea, this section should be simple that I can build easily as a beginner and the i will build 5th section the footer section
