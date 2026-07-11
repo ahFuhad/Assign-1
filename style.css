@@ -1,3 +1,413 @@
-body {
-  background-color: rgb(255, 0, 0);
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+/* Header Section */
+
+/* Navigation bar */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: auto;
+  padding: 24px 0;
+}
+
+.logo {
+  max-width: 94px;
+  max-height: 44px;
+  
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.navigation ul li {
+  list-style: none;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
+  font-size: 1rem;
+}
+
+.register-btn {
+  color: white;
+  font-style: bold;
+  font-size: 1rem;
+  background-color: #1D4ED8;
+  border: none;
+  padding: 12px 41.5px;
+  border-radius: 10px;
+}
+/* Navigation Bar Ends */
+
+/* Banner Section */
+.banner {
+  background-image: url(./img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.ban-contant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(0,0,0,0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 5rem;
+  padding: 5px;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 1.375rem;
+  font-style: normal;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.banner button{
+  padding: 25px 62.5px;
+  font-size: 1.5rem;
+  margin-top: 278px;
+}
+/* Banner Section Ends */
+
+/* Main Section */
+
+/* Speaker Section */
+.speaker{
+  max-width: 1500px;
+  margin: auto;
+  padding-bottom: 136px;
+}
+
+.speaker h2{
+  font-size: 3.5rem;
+  margin-top: 80px;
+  margin-bottom: 56px
+  ;
+  text-align: center;
+}
+
+.speaker-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.speaker-info{
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.speaker-info img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 24px;
+}
+
+.card-info span{
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #2563EB;
+}
+
+.card-info h3{
+  font-size: 1.25rem;
+  margin-top: 8px;
+}
+
+.card-info p{
+  font-size: 0.875rem;
+  color: #575757;
+  margin-top: 8px;
+}
+/* Speaker Section Ends */
+
+/* Price Card Section */
+.price{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.price h2 {
+  font-size: 3rem;
+  margin-bottom: 12px  ;
+  text-align: center;
+}
+
+.price-para{
+  font-size: 1rem;
+  text-align: center;
+  color: #575757;
+}
+
+.price-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.price-info{
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.price-info span{
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #888888;
+}
+
+.price-info h3{
+  font-size: 2.75rem;
+}
+
+.price-info p{
+  font-size: 0.8125rem;
+  color: #888888;
+}
+
+.price-info hr{
+  margin: 20px 0px;
+}
+
+.price-info ul{
+  margin: 0;
+  padding: 0;
+}
+
+.price-info ul li{
+  font-size: 0.875rem;
+  color: #333;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+/* First Button */
+.first-btn{
+  color: #2563EB;
+  font-size: 0.8125rem;
+  font-weight: 600px;
+  text-align: center;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  padding: 11px 100px;
+  background-color: #fff;
+}
+/* Second Button */
+.second-btn{
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 600px;
+  text-align: center;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  padding: 11px 100px;
+  background-color: #2563EB;
+}
+/* Third Button */
+.third-btn{
+  color: #0D1B2A;
+  font-size: 0.8125rem;
+  font-weight: 600px;
+  text-align: center;
+  border: 1px solid #0D1B2A;
+  border-radius: 8px;
+  padding: 11px 100px;
+  background-color: #fff;
+}
+/* Second Price Card */
+.second-price-info{
+  border: 1px solid #0D1B2A;
+  border-radius: 12px;
+  background-color: #0D1B2A;
+  overflow: hidden;
+  padding: 32px;
+}
+
+.second-price-info span{
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #93C5FD;
+}
+
+.second-price-info h3{
+  font-size: 2.75rem;
+  color: #fff;
+}
+
+.second-price-info p{
+  font-size: 0.8125rem;
+  color:  #fff;
+}
+
+.second-price-info hr{
+  margin: 20px 0px;
+  color: #fff;
+}
+
+.second-price-info ul{
+  margin: 0;
+  padding: 0;
+}
+
+.second-price-info ul li{
+  font-size: 0.875rem;
+  color: #fff;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+/* Price Card Section Ends */
+
+/* Event Schedule Section */
+.schedule {
+  margin-top: 150px;
+  padding: 60px 80px;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+.schedule h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.schedule-para {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.schedule article {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: left;
+}
+
+.schedule article h3 {
+  font-size: 1rem;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.first-para{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.last-para {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+/* Event Schedule Section Ends */
+/* Main Section Ends */
+
+/* Footer Section */
+footer{
+  padding: 56px 60px 32px 60px;
+  text-align: center;
+  background-color: #0D1B2A;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.footer-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 480px;
+}
+
+.navigation-two ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navigation-two ul li {
+  list-style: none;
+}
+
+.navigation-two ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-btn {
+  color: rgb(10, 0, 0);
+  font-style: bold;
+  font-size: 1rem;
+  background-color: #fbfcfd;
+  border: none;
+  padding: 12px 41.5px;
+  border-radius: 10px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.term-policy{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.term-policy a{
+  color: #fff;
+  opacity: 40%;
+  font-size: 1rem;
+  text-decoration: none;
 }
