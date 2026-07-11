@@ -38,6 +38,13 @@ nav{
   font-size: 1rem;
 }
 
+.navigation ul li a:hover{
+  color: #000;
+  background-color: #f1eeee;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
 .register-btn {
   color: white;
   font-style: bold;
@@ -47,6 +54,13 @@ nav{
   padding: 12px 41.5px;
   border-radius: 10px;
 }
+
+.register-btn:hover{
+  color: #111827;
+  background-color: #376fe9;
+  cursor: pointer;
+}
+
 /* Navigation Bar Ends */
 
 /* Banner Section */
@@ -219,6 +233,14 @@ nav{
   padding: 11px 100px;
   background-color: #fff;
 }
+
+.first-btn:hover{
+  color: #000;
+  background-color: #f1eeee;
+  border: 1px solid #888888;
+  cursor: pointer;
+}
+
 /* Second Button */
 .second-btn{
   color: #fff;
@@ -230,6 +252,13 @@ nav{
   padding: 11px 100px;
   background-color: #2563EB;
 }
+
+.second-btn:hover{
+  color: #111827;
+  background-color: #376fe9;
+  cursor: pointer;
+}
+
 /* Third Button */
 .third-btn{
   color: #0D1B2A;
@@ -241,6 +270,14 @@ nav{
   padding: 11px 100px;
   background-color: #fff;
 }
+
+.third-btn:hover{
+  color: #000;
+  background-color: #f1eeee;
+  border: 1px solid #888888;
+  cursor: pointer;
+}
+
 /* Second Price Card */
 .second-price-info{
   border: 1px solid #0D1B2A;
@@ -378,6 +415,13 @@ footer{
   font-size: 1rem;
 }
 
+.navigation-two ul li a:hover{
+   color: #000;
+  background-color: #f1eeee;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
 .contact-btn {
   color: rgb(10, 0, 0);
   font-style: bold;
@@ -386,6 +430,12 @@ footer{
   border: none;
   padding: 12px 41.5px;
   border-radius: 10px;
+}
+
+.contact-btn:hover{
+  color: #111827;
+  background-color: #376fe9;
+  cursor: pointer;
 }
 
 .bottom{
